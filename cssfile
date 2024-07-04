@@ -1,0 +1,23 @@
+
+
+.circle {
+  display: inline-block;
+  width: 200px;
+  height: 50px;
+  border-radius: 20px;
+  background: whiteSmoke;
+  box-shadow: 4px -40px 60px 5px rgb(26, 117, 206) inset;
+}
+
+.bounce {
+  animation: bounce 1.2s ease infinite;
+}
+@keyframes bounce {
+    70% { transform:translateY(0%); }
+    80% { transform:translateY(-20%); }
+    90% { transform:translateY(0%); }
+    95% { transform:translateY(-7%); }
+    97% { transform:translateY(0%); }
+    99% { transform:translateY(-3%); }
+    100% { transform:translateY(0); }
+}
